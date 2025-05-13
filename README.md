@@ -6,7 +6,7 @@ This project implements a Pix2Pix GAN (Generative Adversarial Network) for image
 
 - **Objective:** Convert input satellite images into corresponding map images using a conditional GAN framework.
 - **Dataset:** Pix2Pix Maps.
-![Sample Dataset](plots/sample.jpeg)
+![Sample Dataset](images/sample.jpeg)
 
 - **Model Architecture:**
   - **Generator:** U-Net-based encoder-decoder with skip connections.
@@ -16,5 +16,5 @@ This project implements a Pix2Pix GAN (Generative Adversarial Network) for image
 Training loss curves for both the Discriminator and Generator are plotted and saved inside the `plots/` folder.
 
 ### Loss Curves:
-![Training Loss Curves](plots/loss.png)
+![Training Loss Curves](images/loss.png)
 
